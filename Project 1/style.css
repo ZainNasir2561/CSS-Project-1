@@ -1,0 +1,87 @@
+body {
+    font-family: 'arial';
+    margin: 5px;
+    padding: 0;
+    width: 500px;
+    height: 100%;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    align-items: center;
+    height: 65px; 
+}
+
+.logo {
+    width: 35%;
+    border: 5px black solid;
+    padding-block: 20px;
+}
+.menu {
+    width: 65%;
+    border: 5px black solid;
+    padding-block: 20px;
+}
+
+.image-container {
+    display: flex;
+    background-color: lightcyan;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    border: 5px black solid;
+}
+
+.feature-container {
+    display: flex;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    height: 100px 
+}
+
+.feat1,
+.feat2,
+.feat3 {
+    flex-grow: 1;
+    border: 5px black solid;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.body-container {
+    display: flex;
+    width: 100%;
+    background-color: lightcyan;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+}
+
+.sidebar {
+    width: 35%;
+    border: 5px black solid;
+    padding-top: 97px;
+    padding-bottom: 100px;
+}
+
+.text-content {
+    width: 65%;
+    border: 5px black solid;
+    padding-top: 97px;
+    padding-bottom: 100px;
+}
+
+.footer-container {
+    display: flex;
+    background-color: lightgoldenrodyellow;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    border: 5px black solid;
+}
